@@ -30,7 +30,7 @@ cd Titanic_Classification
 ```
   3. Run the Jupyter Notebook file:
 ```bash
-jupyter notebook Titanic_Classification__.ipynb
+jupyter notebook Titanic_Classification (N).ipynb
 ```
 ## Procedure 
 1. **Data Loading:** Load Titanic dataset from 'train.csv', including survival status.
