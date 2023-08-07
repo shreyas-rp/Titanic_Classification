@@ -33,20 +33,20 @@ cd Titanic_Classification
 jupyter notebook Titanic_Classification__.ipynb
 ```
 ## Procedure 
-1. **Data Loading: Load Titanic dataset from 'train.csv', including survival status.
+1. **Data Loading:** Load Titanic dataset from 'train.csv', including survival status.
 
-2. **Data Preprocessing: Handle missing values, drop 'Cabin', convert 'Age' and 'Embarked', and encode categorical features.
+2. **Data Preprocessing:** Handle missing values, drop 'Cabin', convert 'Age' and 'Embarked', and encode categorical features.
 
-3. **Data Visualization: Create count plots using seaborn to understand data distribution and feature relationships.
+3. **Data Visualization:** Create count plots using seaborn to understand data distribution and feature relationships.
 
-4. **Data Splitting: Divide data into features and target labels, then split into training and testing sets.
+4. **Data Splitting:** Divide data into features and target labels, then split into training and testing sets.
 
-5. **Model Training: Train a Logistic Regression model using training data.
+5. **Model Training:** Train a Logistic Regression model using training data.
 
-6. **Model Evaluation: Make predictions on training and testing sets, calculate accuracy scores for evaluation.
+6. **Model Evaluation:** Make predictions on training and testing sets, calculate accuracy scores for evaluation.
 
 # Results
-  - he Jupyter Notebook shows the analysis, visualizations, and evaluation of the Titanic survivor prediction model. You can enhance the model's accuracy by trying 
+  - the Jupyter Notebook shows the analysis, visualizations, and evaluation of the Titanic survivor prediction model. You can enhance the model's accuracy by trying 
     various features, preprocessing methods, and model parameters.
     
   - Feel free to experiment with different hyperparameters and model architectures to improve accuracy.
