@@ -1,25 +1,52 @@
 # Titanic_Classification
+## Titanic passenger survival Prediction using Logistic Regression
 
-Project Title: Titanic Survivor Prediction Using Logistic Regression
 
-Description:
-This project aims to predict whether a person survived or not in the Titanic accident using Logistic Regression. The dataset contains information about passengers: age, sex, passenger class (Pclass), and embarked location (Embarked). We preprocess the data, convert categorical columns to numerical values, and train a Logistic Regression model to predict survival outcomes.
+## Getting Started
+### Prerequisites
+To run the code and experiments, you'll need the following:
 
-Procedure:
+  - Python (version 3.6 or later)
+  - Jupyter Notebook
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
 
-1)Data Loading: The Titanic dataset is loaded from the CSV file 'train.csv', containing information about passengers, including survival status (Survived).
-Data Preprocessing: The dataset is explored to understand its structure and the presence of any missing values. We drop the 'Cabin' column, fill in missing values in the 'Age' and 'Embarked' columns, and replace categorical values in 'Sex' and 'Embarked' with numerical representations.
+You can install the required libraries using the following command:   
+ ```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
+## Installation
+To get started, follow these steps:   
+  1. Clone the repository to your local machine:
+```bash
+git clone https://github.com/shreyas-rp/Titanic_Classification.git
+```
+  2. Navigate to the project directory:
+```bash
+cd Titanic_Classification
+```
+  3. Run the Jupyter Notebook file:
+```bash
+jupyter notebook Titanic_Classification__.ipynb
+```
+## Procedure 
+1. **Data Loading: Load Titanic dataset from 'train.csv', including survival status.
 
-2)Data Visualization: We create various count plots using the Seaborn library to visualize the distribution of data and explore the relationships between features and survival.
+2. **Data Preprocessing: Handle missing values, drop 'Cabin', convert 'Age' and 'Embarked', and encode categorical features.
 
-3)Data Splitting: The dataset is split into features (X) and target labels (Y). We then split the data into training and testing sets using the train_test_split function from scikit-learn.
+3. **Data Visualization: Create count plots using seaborn to understand data distribution and feature relationships.
 
-4)Model Training: A Logistic Regression model is initialized and trained using the training data. The fit method trains the model on the features and corresponding target labels.
+4. **Data Splitting: Divide data into features and target labels, then split into training and testing sets.
 
-5)Model Evaluation: The trained model is used to make predictions on both the training and testing sets. Accuracy scores are calculated for both datasets to evaluate the model's performance.
+5. **Model Training: Train a Logistic Regression model using training data.
 
-Technologies Used:
-1)Python: The programming language used for the implementation of the project.
-2)pandas, numpy: Libraries used for data manipulation and numerical computations. 
-3)Matplotlib, seaborn: Libraries used for data visualization and plotting count plots.
-4)scikit-learn: Library used for machine learning tasks, including data splitting and Logistic Regression model implementation.
+6. **Model Evaluation: Make predictions on training and testing sets, calculate accuracy scores for evaluation.
+
+# Results
+  - he Jupyter Notebook shows the analysis, visualizations, and evaluation of the Titanic survivor prediction model. You can enhance the model's accuracy by trying 
+    various features, preprocessing methods, and model parameters.
+    
+  - Feel free to experiment with different hyperparameters and model architectures to improve accuracy.
