@@ -1,6 +1,7 @@
 # Titanic_Classification
 
 Project Title: Titanic Survivor Prediction Using Logistic Regression
+
 Description:
 This project aims to predict whether a person survived or not in the Titanic accident using Logistic Regression. The dataset contains information about passengers: age, sex, passenger class (Pclass), and embarked location (Embarked). We preprocess the data, convert categorical columns to numerical values, and train a Logistic Regression model to predict survival outcomes.
 
