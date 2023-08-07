@@ -16,10 +16,9 @@ Data Splitting: The dataset is split into features (X) and target labels (Y). We
 
 Model Training: A Logistic Regression model is initialized and trained using the training data. The fit method trains the model on the features and corresponding target labels.
 
-Model Evaluation: The trained model is used to make predictions on both the training and testing sets. Accuracy scores are calculated for both datasets to evaluate the model's performance.\
+Model Evaluation: The trained model is used to make predictions on both the training and testing sets. Accuracy scores are calculated for both datasets to evaluate the model's performance.
 
 Technologies Used:
 Python: The programming language used for the implementation of the project.
-pandas, numpy: Libraries used for data manipulation and numerical computations.
-matplotlib, seaborn: Libraries used for data visualization and plotting count plots.
+pandas, numpy: Libraries used for data manipulation and numerical computations.matplotlib, seaborn: Libraries used for data visualization and plotting count plots.
 scikit-learn: Library used for machine learning tasks, including data splitting and Logistic Regression model implementation.
